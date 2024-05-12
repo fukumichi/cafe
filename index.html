@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Something Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e5340c18f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/collage4.jpg"></a>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="onlineshop.html">COURSE</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+            </div.>  
+        </nav>
+        
+
+<div. class="text-box">
+    <h1>Something Cafe</h1>
+    <p>The most beautiful experience from a sip from your mug. <br> From Chicago to Kyoto, we bring you happiness.</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div.>  
+
+</section>
+
+<!----- course ----->
+<section class="course">
+    <h1>Course We Offer </h1>
+    <p>We have so many classes to offer.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidiate</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+        <div class="course-col">
+            <h3>Not</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+        <div class="course-col">
+            <h3>Yes</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+    </div>
+
+</section>
+
+<!----- campus ----->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/openbag.jpg">
+            <h3>World Class falilities.</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+        <div class="campus-col">
+            <img src="images/latteart.jpg">
+            <h3>World Class falilities.</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+        <div class="campus-col">
+            <img src="images/lunch.jpg">
+            <h3>World Class falilities.</h3>
+            <p>We have so many featutes at out cafe. Ouside dinning and stuff.</p>
+        </div>
+    </div>
+
+</section>
+
+<!----- footer ----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Contact and stuff are here</p>
+    <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <p>Made with <i class="fa-regular fa-heart"></i>. </p>
+    </div>
+
+</section>
+
+<!-----JavaScript for Toggle Menu---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>  
